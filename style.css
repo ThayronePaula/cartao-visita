@@ -1,0 +1,45 @@
+body{
+	padding: 0;
+	margin:0 ;
+	background-color: #ccc;
+}
+.cartao{
+	margin:0;
+	width: 400px;
+	height: 200px;
+	background: url("fundo.png") center/cover;
+}
+.cartao h1{
+	margin: 0;
+	font-family:Arial, "sans-serif";
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 400;
+}
+
+.cartao a{
+	text-decoration: none;
+	color: black;
+
+}
+.cartao a:hover{
+	color: #ce0404;
+}
+
+.cartao ul li{
+	margin: 5px;
+	font-family:Arial, "sans-serif";
+	font-size: 15px;
+}
+
+#insta{
+	list-style-image: url("./image/Insta.png");
+}
+
+#twitter{
+	list-style-image: url("./image/Twitter.png");
+}
+
+#youtube{
+	list-style-image: url("./image/Youtube.png");
+}
