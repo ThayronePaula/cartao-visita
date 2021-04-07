@@ -2,9 +2,13 @@ body{
 	padding: 0;
 	margin:0 ;
 	background-color: #ccc;
+	heigth: 100vh;
 }
 .cartao{
-	margin:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
 	width: 400px;
 	height: 200px;
 	background: url("fundo.png") center/cover;
